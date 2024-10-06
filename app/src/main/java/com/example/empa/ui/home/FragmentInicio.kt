@@ -1,17 +1,15 @@
-package com.example.empa.ui.gallery
+package com.example.empa.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.example.empa.databinding.FragmentGalleryBinding
+import com.example.empa.databinding.FragmentInicioBinding
 
-class GalleryFragment : Fragment() {
+class HomeFragment : Fragment() {
 
-    private var _binding: FragmentGalleryBinding? = null
+    private var _binding: FragmentInicioBinding? = null
 
     private val binding get() = _binding!!
 
@@ -21,7 +19,7 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+        _binding = FragmentInicioBinding.inflate(inflater, container, false)
 
         return binding.root
     }
