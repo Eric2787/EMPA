@@ -9,12 +9,19 @@
         android:id="@+id/nav_inicio"
         android:name="com.example.empa.ui.home.HomeFragment"
         android:label="@string/menu_ini"
-        tools:layout="@layout/fragment_inicio" />
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_pedidos"
+            app:destination="@id/nav_pedidos"
+            app:popUpTo="@id/nav_inicio"
+            app:popUpToInclusive="true" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_pedidos"
         android:name="com.example.empa.ui.gallery.GalleryFragment"
         android:label="@string/menu_pedidos"
+
         tools:layout="@layout/fragment_pedidos" />
 
     <fragment

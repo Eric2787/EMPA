@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
+import com.example.empa.R
 import com.example.empa.databinding.FragmentInicioBinding
 
 class HomeFragment : Fragment() {
@@ -20,6 +22,12 @@ class HomeFragment : Fragment() {
     ): View {
 
         _binding = FragmentInicioBinding.inflate(inflater, container, false)
+
+        binding.btnFragmentIni1.setOnClickListener {
+
+            view : View -> view.findNavController().navigate(R.id.action_nav_inicio_to_nav_pedidos)
+
+        }
 
         return binding.root
     }

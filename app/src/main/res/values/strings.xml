@@ -15,7 +15,9 @@
 
     <!-- FRAGMENT INICIO -->
 
-    <string name="txt_fragment_ini_1">B I E N V E N I D O S</string>
+    <string name="txt_fragment_ini_1">B I E N V E N I D O</string>
     <string name="txt_fragment_ini_2">¿Qué vamos a ordenar?</string>
+    <string name="btn_fragment_ini_1">C O M E N Z A R</string>
+    <string name="img_fragment_ini_1">empa_logo</string>
 
 </resources>
