@@ -35,4 +35,12 @@
     <string name="edt_nbr_fragment_ped_1">ej. 3</string>
     <string name="edt_nbr_fragment_ped_2">ej. 2</string>
 
+    <!-- FRAGMENT AYUDANOS -->
+    <string name="txt_fragment_ayd_1">¿Quieres ayudarnos a mejorar?</string>
+    <string name="txt_fragment_ayd_2">Contactanos</string>
+    <string name="txt_fragment_ayd_3">contacto.empa2024@gmail.com</string>
+    <string name="txt_fragment_ayd_4">Tus comentarios nos ayudan a mejorar nuestro servicio, gracias por tu confianza</string>
+    <string name="txt_fragment_ayd_5">©EMPA, Todos los derechos reservados</string>
+    <string name="txt_fragment_ayd_6">Aplicación desarrollada por: Eric González</string>
+
 </resources>
