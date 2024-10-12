@@ -34,9 +34,11 @@
     <string name="btn_fragment_ped_1">Realizar Pedido</string>
     <string name="edt_nbr_fragment_ped_1">ej. 3</string>
     <string name="edt_nbr_fragment_ped_2">ej. 2</string>
-    <string name="txt_fragment_ped_8">Tipo:</string>
-    <string name="txt_fragment_ped_9">En caso de pedir más de un sabor coloque el segundo tipo</string>
-    <string name="txt_fragment_ped_10">ej. Zarzamora Con Queso</string>
+    <string name="txt_fragment_ped_8">Tipo: </string>
+    <string name="txt_fragment_ped_9">En caso de pedir más de un sabor coloque el segundo tipo, caso contrario deje en blanco</string>
+    <string name="edt_txt_fragment_ped_1">ej. Zarzamora Con Queso</string>
+    <string name="txt_fragment_ped_11">Cantidad: </string>
+    <string name="edt_nbr_fragment_ped_3">ej. 3</string>
 
     <!-- FRAGMENT AYUDANOS -->
     <string name="txt_fragment_ayd_1">¿Quieres ayudarnos a mejorar?</string>

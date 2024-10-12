@@ -42,10 +42,11 @@ class GalleryFragment : Fragment() {
                     val grupo = binding.editTxtPed2.text.toString()
                     val tipo1 = binding.editTxtPed3.text.toString()
                     val tipo2 = binding.editTxtPed5.text.toString()
-                    val cantidad = binding.editNbrPed2.text.toString()
+                    val cantidad1 = binding.editNbrPed2.text.toString()
+                    val cantidad2 = binding.editNbrPed3.text.toString()
                     val dia = binding.editTxtPed4.text.toString()
 
-                    val response = ApiService.getInstance().postRegistro(nombre, grado, grupo, tipo1, tipo2, cantidad, dia)
+                    val response = ApiService.getInstance().postRegistro(nombre, grado, grupo, tipo1, tipo2, cantidad1, cantidad2, dia)
                     if (response.isSuccessful) {
 
                         Toast.makeText(activity, "El pedido se ha realizado con exito", Toast.LENGTH_LONG).show()
@@ -91,7 +92,8 @@ interface ApiService {
         @Field("GRUPO") grupo: String,
         @Field("TIPO1") tipo1: String,
         @Field("TIPO2") tipo2: String,
-        @Field("CANTIDAD") cantidad: String,
+        @Field("CANTIDAD1") cantidad1: String,
+        @Field("CANTIDAD2") cantidad2: String,
         @Field("DIA") dia: String,
     ): Response<Unit>
 }

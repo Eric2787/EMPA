@@ -15,62 +15,10 @@
         android:textSize="@dimen/txt_subtitu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nbr_fragment_ped_1"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_fragment_ped_4"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_fragment_ped_2"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_fragment_ped_3"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.018" />
 
     <EditText
         android:id="@+id/editTxtPed1"
@@ -84,19 +32,8 @@
         app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218"
+        app:layout_constraintVertical_bias="0.088"
         tools:ignore="Autofill,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,HardcodedText,LabelFor,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/editNbrPed1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/edt_nbr_fragment_ped_1"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/editTxtPed1"
-        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed3"
-        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTxtPed2"
@@ -120,83 +57,68 @@
         app:layout_constraintTop_toTopOf="@+id/txtFragmentPed5"
         tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
 
-    <EditText
-        android:id="@+id/editNbrPed2"
+    <TextView
+        android:id="@+id/txtFragmentPed5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:text="@string/txt_fragment_ped_4"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fragment_ped_3"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nbr_fragment_ped_1"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <EditText
+        android:id="@+id/editNbrPed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/edt_nbr_fragment_ped_2"
+        android:hint="@string/edt_nbr_fragment_ped_1"
         android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@+id/editTxtPed3"
-        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed6"
-        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPed1"
+        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed3"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
-    <EditText
-        android:id="@+id/editTxtPed4"
+    <TextView
+        android:id="@+id/txtFragmentPed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="ej. Jueves"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="@+id/editNbrPed2"
-        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed7"
-        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_fragment_ped_5"
+        android:text="@string/txt_fragment_ped_2"
         android:textSize="@dimen/txt_normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nbr_fragment_ped_2"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed8"
-        android:layout_width="380dp"
-        android:layout_height="40dp"
-        android:text="@string/txt_fragment_ped_6"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/txtFragmentPed9"
-        android:layout_width="380dp"
-        android:layout_height="40dp"
-        android:text="@string/txt_fragment_ped_7"
-        android:textSize="@dimen/txt_normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtFragmentPed8"
-        app:layout_constraintVertical_bias="0.075"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintVertical_bias="0.104" />
 
     <Button
         android:id="@+id/btnFragmentPed1"
@@ -213,14 +135,28 @@
 
     <TextView
         android:id="@+id/txtFragmentPed10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="378dp"
+        android:layout_height="46dp"
         android:text="@string/txt_fragment_ped_9"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editNbrPed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_nbr_fragment_ped_2"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editTxtPed5"
+        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed6"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/txtFragmentPed11"
@@ -229,19 +165,110 @@
         android:text="@string/txt_fragment_ped_8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
+        app:layout_constraintVertical_bias="0.519" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed8"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="@string/txt_fragment_ped_6"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTxtPed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ej. Jueves"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/editNbrPed3"
+        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed7"
+        tools:ignore="Autofill,HardcodedText,LabelFor,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nbr_fragment_ped_2"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed9"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:text="@string/txt_fragment_ped_7"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fragment_ped_5"
+        android:textSize="@dimen/txt_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
 
     <EditText
         android:id="@+id/editTxtPed5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/txt_fragment_ped_10"
+        android:hint="@string/edt_txt_fragment_ped_1"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="@+id/editTxtPed3"
         app:layout_constraintTop_toTopOf="@+id/txtFragmentPed11"
         tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtFragmentPed12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_fragment_ped_11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <EditText
+        android:id="@+id/editNbrPed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_nbr_fragment_ped_3"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editNbrPed2"
+        app:layout_constraintTop_toTopOf="@+id/txtFragmentPed12"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
